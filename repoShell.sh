@@ -10,6 +10,8 @@
 #echo The folder is deleted
 
 
+echo the commit check is done correctly
+
 echo "checking weather the text is getting spoied in to the file or not" >> newFile.sh
 
 git status
@@ -17,4 +19,7 @@ git status
 git add .
 
 git commit -m "this is the commit done from the shell script"
+
+git push origin nmaster
+
 
